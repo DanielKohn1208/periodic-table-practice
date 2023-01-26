@@ -174,9 +174,6 @@ const elements = [
 	}, {
 		name: "U",
 		symbol: "Uranium",
-	}, {
-		name: "idk",
-		symbol: "id",
 	}
 ]
 // functions
