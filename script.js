@@ -23,7 +23,10 @@ const elements = [
 		symbol: "Nitrogen",
 	}, {
 		name: "O",
-		symbol: "F",
+		symbol: "Oxygen",
+	}, {
+		name: "F",
+		symbol: "Fluorine",
 	}, {
 		name: "Ne",
 		symbol: "Neon",
