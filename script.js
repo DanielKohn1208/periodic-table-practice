@@ -43,11 +43,14 @@ const elements = [
 		name: "Si",
 		symbol: "Silicon",
 	}, {
-		name: "Phosphorus",
+		name: "P",
+		symbol: "Phosphorus",
+	}, {
+		name: "S",
 		symbol: "Sulfur",
 	}, {
-		name: "Chlorine",
-		symbol: "Cl",
+		name: "Cl",
+		symbol: "Chlorine",
 	}, {
 		name: "Ar",
 		symbol: "Argon",
