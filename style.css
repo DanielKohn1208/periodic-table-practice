@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*, h1 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#prompt{
+	font-size:100;
+}
+.center{
+	text-align:center;
+}
+
+.wrong{
+	color: #FA396D;
+}
+
+.correct{
+	color: #39FF82;
+}
+
