@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title></title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="pico.min.css">
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body class="container">
-		<h1>Periodic Table Practice</h1>
 
-		<section id="quiz-area">
-			<select id="name-symbol-picker">
-				<option value="symbol"selected >Symbol</option>
-				<option value="name">Name</option>
-			</select>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="pico.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
 
-			<input type="text" id="guess-input" placeholder = "Guess" onKeyDown="keyPress(event)">
+<body class="container">
+	<h1>Periodic Table Practice</h1>
 
-			<div class="grid">
-				<button type="button" id="submit-button" onclick="submitAnswer()">Submit</button>
-				<button type="button" id="hint-button" onclick="getHint()">Hint</button>
-			</div>
+	<section id="quiz-area">
+		<select id="name-symbol-picker">
+			<option value="symbol" selected>Symbol</option>
+			<option value="name">Name</option>
+		</select>
 
-			<div class="center correct" id="feedback" ></div>
-			<h1 id="prompt" class="center">sdlkfjsdlkfjsldkfj</h1>
-		</section>
-		<footer>
-			<p>
-				This includes only the elements that I need to know for my chemistry class (First 54 + some other ones). If I feel like it, may add support to choose the ones you want. This won't happen because I don't care. 
-			</p>
-			Links
+		<input type="text" id="guess-input" placeholder="Guess" onKeyDown="keyPress(event)">
+
+		<div class="grid">
+			<button type="button" id="submit-button" onclick="submitAnswer()">Submit</button>
+			<button type="button" id="hint-button" onclick="getHint()">Hint</button>
+		</div>
+
+		<div class="center correct" id="feedback"></div>
+		<h1 id="prompt" class="center">sdlkfjsdlkfjsldkfj</h1>
+	</section>
+	<footer>
+		<p>
+			This includes only the elements that I need to know for my chemistry class (First 54 + some other ones). If I feel
+			like it, may add support to choose the ones you want. This won't happen because I don't care.
+		</p>
+		Links
+		<ul>
+			<li><a href="https://github.com/DanielKohn1208/periodic-table-practice">Github (source code)</a></li>
+			<li><a href="https://picocss.com/">Pico CSS</a></li>
 			<ul>
-				<li><a href="https://github.com/DanielKohn1208/periodic-table-practice">Github (source code)</a></li>
-				<li><a href="https://picocss.com/">Pico CSS</a></li>
-			<ul>
-		</footer>
-		
+	</footer>
+
 	<script type="text/javascript" src="script.js"></script>
 
-	</body>
+</body>
+
 </html>
